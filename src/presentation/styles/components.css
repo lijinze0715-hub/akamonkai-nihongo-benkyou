@@ -108,3 +108,12 @@
 .example p:last-child {
   margin-bottom: 0;
 }
+.speech-controls { margin: 16px 0; padding: 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.speech-controls .button-row { align-items: end; }
+.speech-controls label { display: flex; flex-direction: column; gap: 6px; min-width: 0; max-width: 100%; font-size: 13px; }
+.speech-controls select { max-width: 100%; min-width: 150px; padding: 8px; }
+.speech-controls p { font-size: 13px; margin: 10px 0; }
+.speech-controls small { display: block; color: var(--muted); margin-top: 10px; }
+.dialogue-lines { margin-top: 12px; border-top: 1px solid var(--line); }
+.dialogue-lines .example-japanese { font-size: 16px; margin-top: 8px; }
+@media (max-width: 600px) { .speech-controls label { width: 100%; } .example-japanese { flex-wrap: wrap; } }

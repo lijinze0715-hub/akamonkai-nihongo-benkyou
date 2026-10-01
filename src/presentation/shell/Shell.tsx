@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { useStudy, useUi } from "../context";
+import { SpeechControls } from "../components/SpeechControls";
 export function Shell({ children }: { children: ReactNode }) {
   const {
     locale,
@@ -59,6 +60,7 @@ export function Shell({ children }: { children: ReactNode }) {
         </div>
       </header>
       <main id="main">
+        <SpeechControls />
         {message && (
           <div role="status" className="notice">
             {t(message)}

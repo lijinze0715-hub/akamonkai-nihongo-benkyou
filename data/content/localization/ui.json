@@ -174,5 +174,93 @@
   "ui.wordTest": {
     "zh": "选择与日语词语对应的意思。",
     "en": "Choose the meaning of the Japanese word."
+  },
+  "ui.speechSettings": {
+    "zh": "朗读设置",
+    "en": "Speech settings"
+  },
+  "ui.speechEngine": {
+    "zh": "朗读引擎",
+    "en": "Speech engine"
+  },
+  "ui.speechDevice": {
+    "zh": "设备声音",
+    "en": "Device voices"
+  },
+  "ui.speechVoice": {
+    "zh": "默认声音",
+    "en": "Default voice"
+  },
+  "ui.speechDefault": {
+    "zh": "使用页面默认声音",
+    "en": "Use page default"
+  },
+  "ui.speechLocal": {
+    "zh": "本地",
+    "en": "Local"
+  },
+  "ui.speechOnline": {
+    "zh": "在线（非本地）",
+    "en": "Online (not local)"
+  },
+  "ui.speechLoading": {
+    "zh": "正在等待设备日语声音加载…",
+    "en": "Waiting for Japanese device voices…"
+  },
+  "ui.speechNoVoices": {
+    "zh": "没有可用声音",
+    "en": "No available voices"
+  },
+  "ui.speechNoJapanese": {
+    "zh": "没有可用的日语声音。请检查系统日语语音包或浏览器支持情况；声音稍后加载时会自动更新。",
+    "en": "No Japanese voices available. Check your system Japanese speech pack or browser support. Voices will update if they load later."
+  },
+  "ui.speechUnsupported": {
+    "zh": "此浏览器不支持设备朗读。请使用支持 Web Speech API 的浏览器。",
+    "en": "This browser does not support device speech. Use a browser with Web Speech API support."
+  },
+  "ui.speechFailed": {
+    "zh": "设备朗读失败，请重新点击朗读或选择其他声音。",
+    "en": "Device speech failed. Click again or choose another voice."
+  },
+  "ui.speechStorageError": {
+    "zh": "无法保存声音设置，本次页面仍可使用。",
+    "en": "Voice preferences could not be saved. Speech is still available for this session."
+  },
+  "ui.voicevoxDetect": {
+    "zh": "检测 / 重新检测 VOICEVOX",
+    "en": "Detect / recheck VOICEVOX"
+  },
+  "ui.voicevoxDetecting": {
+    "zh": "正在检测 VOICEVOX…",
+    "en": "Checking VOICEVOX…"
+  },
+  "ui.voicevoxUnavailable": {
+    "zh": "未检测到可用的 VOICEVOX，设备语音仍可正常使用。",
+    "en": "No usable VOICEVOX detected. Device speech remains available."
+  },
+  "ui.voicevoxFallback": {
+    "zh": "本次 VOICEVOX 不可用，已回退到设备声音。",
+    "en": "VOICEVOX is unavailable this time. Using device voices."
+  },
+  "ui.voicevoxPlaybackFailed": {
+    "zh": "VOICEVOX 连接或播放失败，请检查 Engine、浏览器本地网络权限，或切回设备声音后重试。",
+    "en": "VOICEVOX connection or playback failed. Check the Engine and browser local network permissions, or switch to device voices and try again."
+  },
+  "ui.voicevoxLocalHint": {
+    "zh": "VOICEVOX 检测本机 127.0.0.1:50021；手机上的此地址指向手机自身。",
+    "en": "VOICEVOX checks this device at 127.0.0.1:50021. On a phone, this address refers to the phone itself."
+  },
+  "ui.speechRoles": {
+    "zh": "对话角色声音",
+    "en": "Dialogue role voices"
+  },
+  "ui.speechContinuous": {
+    "zh": "连续播放本课例句",
+    "en": "Play lesson examples continuously"
+  },
+  "ui.speechRoleHint": {
+    "zh": "“我”的声音跨课程共享，其他角色按课次保存；未配置或不可用时使用页面默认声音。",
+    "en": "The “我” voice is shared across lessons. Other roles are saved per lesson. Missing voices use the page default."
   }
 }

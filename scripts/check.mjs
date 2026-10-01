@@ -294,6 +294,8 @@ const {VocabularyScreen}=load('src/presentation/screens/VocabularyScreen.tsx');
 const {GrammarScreen}=load('src/presentation/screens/GrammarScreen.tsx');
 const {AssessmentScreen}=load('src/presentation/screens/AssessmentScreen.tsx');
 function render(component,props,locale){const services=createServices(ui);services.localization.current=()=>locale;return renderToStaticMarkup(React.createElement(StudyProvider,{services},React.createElement(component,props)));}
+const {SpeechControls}=load('src/presentation/components/SpeechControls.tsx');
+assert(render(SpeechControls,{},'zh').includes('设备声音'), 'Speech settings must render without browser globals');
 const zhIndex=render(IndexScreen,{catalog},'zh'),enIndex=render(IndexScreen,{catalog},'en');
 const links=html=>[...html.matchAll(/href="(\?unit=[^"]+)"/g)].map(m=>m[1].replaceAll('&amp;','&'));
 assert.deepEqual(links(zhIndex),links(enIndex));
@@ -312,3 +314,5 @@ console.log(JSON.stringify({indexRoutes:links(zhIndex).length,renderedViews,both
 const { checkDdd } = await import('./check-ddd.mjs');
 await checkDdd({ load, catalog, units: compileUnits(), ui });
 await import('./check-content-review.mjs');
+const { checkSpeech } = await import('./check-speech.mjs');
+await checkSpeech({ load });
