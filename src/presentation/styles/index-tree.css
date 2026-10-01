@@ -1,0 +1,220 @@
+.hero {
+  padding: 65px 0 0;
+  max-width: 780px;
+}
+.hero h1 {
+  font-size: 60px;
+  line-height: 1.4;
+  margin: 20px 0 24px;
+  letter-spacing: 0.07em;
+}
+.hero em {
+  font-style: normal;
+  color: var(--accent);
+}
+.hero > p {
+  color: var(--muted);
+  font-size: 16px;
+  max-width: 540px;
+}
+.hero-rule {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--line);
+  padding: 18px 0;
+  margin-top: 32px;
+  font-size: 11px;
+  letter-spacing: 0.17em;
+  color: var(--muted);
+}
+.index-section {
+  margin-top: 48px;
+}
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.section-heading h2 {
+  font-size: 24px;
+  font-family: var(--font-serif);
+}
+.section-heading p {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0;
+}
+.index-controls {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+.book-filters {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.book-filters button {
+  border: 0;
+  padding: 6px 10px;
+  font-size: 12px;
+  background: transparent;
+}
+.book-filters button[aria-pressed="true"] {
+  background: var(--ink);
+  color: #fff;
+}
+.index-controls input {
+  font-size: 13px;
+  width: 280px;
+}
+.book-section {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 28px 32px;
+  margin-bottom: 20px;
+}
+.book-heading {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  margin-bottom: 22px;
+}
+.book-number {
+  font: italic 34px var(--font-serif);
+  color: #b7aca2;
+}
+.book-heading p {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 0 0 4px;
+}
+.book-heading h3 {
+  font-size: 24px;
+  font-family: var(--font-serif);
+}
+.book-unit-count {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 12px;
+}
+.study-types details {
+  border-top: 1px solid var(--line);
+}
+.study-types summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px 0;
+  font-size: 14px;
+}
+.study-types summary small {
+  color: var(--muted);
+}
+.expand-icon {
+  margin-left: auto;
+  color: var(--accent);
+}
+.study-types details[open] .expand-icon {
+  transform: rotate(45deg);
+}
+.index-links {
+  padding: 0 0 12px 24px;
+}
+.index-links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-top: 1px dashed var(--line);
+}
+.index-links a > span:first-child {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.index-links small {
+  min-width: 56px;
+  color: var(--muted);
+  font-size: 10px;
+}
+.index-links strong {
+  font-size: 14px;
+  font-weight: 500;
+}
+.link-meta {
+  font-size: 11px;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.link-meta > span {
+  color: var(--accent);
+  font-size: 18px;
+}
+.pending {
+  padding: 10px 20px;
+  font-size: 13px;
+}
+@media (max-width: 640px) {
+  .hero {
+    padding-top: 38px;
+  }
+  .hero h1 {
+    font-size: 42px;
+  }
+  .hero > p {
+    font-size: 14px;
+  }
+  .hero-rule {
+    margin-top: 24px;
+  }
+  .index-section {
+    margin-top: 30px;
+  }
+  .section-heading {
+    display: block;
+  }
+  .section-heading p {
+    margin-top: 8px;
+  }
+  .book-section {
+    padding: 20px 18px;
+  }
+  .book-heading {
+    gap: 12px;
+  }
+  .book-heading h3 {
+    font-size: 21px;
+  }
+  .book-unit-count {
+    font-size: 10px;
+  }
+  .book-number {
+    font-size: 27px;
+  }
+  .index-links {
+    padding-left: 0;
+  }
+  .index-links a > span:first-child {
+    display: block;
+  }
+  .index-links small {
+    display: block;
+  }
+  .link-meta {
+    gap: 12px;
+    white-space: nowrap;
+  }
+  .index-controls input {
+    width: 100%;
+  }
+}

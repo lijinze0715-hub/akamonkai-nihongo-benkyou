@@ -1,0 +1,24 @@
+{
+  "name": "akamonkai-benkyou",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build-content.mjs && vite --host 127.0.0.1",
+    "build": "node scripts/check.mjs && node scripts/build-content.mjs && tsc --noEmit && vite build",
+    "check": "node scripts/check.mjs",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/node": "22.19.19",
+    "typescript": "5.9.3",
+    "vite": "8.0.13",
+    "@vitejs/plugin-react": "6.0.2"
+  }
+}

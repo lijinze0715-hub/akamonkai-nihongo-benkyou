@@ -1,0 +1,178 @@
+{
+  "ui.intro": {
+    "zh": "沿着课本的顺序，把学过的日语真正记住。",
+    "en": "Follow your textbook. Make each lesson part of what you know."
+  },
+  "ui.indexHelp": {
+    "zh": "展开学习类型，直接进入对应课次。",
+    "en": "Expand a study type and go straight to a lesson."
+  },
+  "ui.search": {
+    "zh": "查找课次或日语标题",
+    "en": "Find a lesson or Japanese title"
+  },
+  "ui.wordSearch": {
+    "zh": "搜索读音、词形或释义",
+    "en": "Search readings, words or meanings"
+  },
+  "ui.all": {
+    "zh": "全部",
+    "en": "All"
+  },
+  "ui.saved": {
+    "zh": "生词",
+    "en": "Saved"
+  },
+  "ui.mastered": {
+    "zh": "已掌握",
+    "en": "Mastered"
+  },
+  "ui.save": {
+    "zh": "加入生词",
+    "en": "Save word"
+  },
+  "ui.unsave": {
+    "zh": "移出生词",
+    "en": "Unsave word"
+  },
+  "ui.master": {
+    "zh": "标为已掌握",
+    "en": "Mark as mastered"
+  },
+  "ui.unmaster": {
+    "zh": "取消掌握标记",
+    "en": "Mark for review"
+  },
+  "ui.speak": {
+    "zh": "朗读",
+    "en": "Listen"
+  },
+  "ui.stop": {
+    "zh": "停止",
+    "en": "Stop"
+  },
+  "ui.speechUnavailable": {
+    "zh": "此浏览器暂不支持日语朗读。",
+    "en": "Speech playback is unavailable in this browser."
+  },
+  "ui.wordCount": {
+    "zh": "{count} 个词条",
+    "en": "{count} words"
+  },
+  "ui.questionCount": {
+    "zh": "{count} 道题",
+    "en": "{count} questions"
+  },
+  "ui.progress": {
+    "zh": "已答 {done} / {total}",
+    "en": "Answered {done} / {total}"
+  },
+  "ui.submit": {
+    "zh": "提交并查看解析",
+    "en": "Submit and review"
+  },
+  "ui.finishAll": {
+    "zh": "请完成全部题目后提交。",
+    "en": "Answer every question before submitting."
+  },
+  "ui.correct": {
+    "zh": "回答正确",
+    "en": "Correct"
+  },
+  "ui.incorrect": {
+    "zh": "再复习一下",
+    "en": "Review this one"
+  },
+  "ui.answer": {
+    "zh": "可用答案",
+    "en": "Accepted answers"
+  },
+  "ui.retry": {
+    "zh": "重新练习",
+    "en": "Try again"
+  },
+  "ui.retryWrong": {
+    "zh": "只练错题",
+    "en": "Retry mistakes"
+  },
+  "ui.result": {
+    "zh": "答对 {correct} / {total}，正确率 {percent}%",
+    "en": "{correct} / {total} correct · {percent}%"
+  },
+  "ui.inputAnswer": {
+    "zh": "输入答案",
+    "en": "Type your answer"
+  },
+  "ui.previous": {
+    "zh": "上一组",
+    "en": "Previous"
+  },
+  "ui.next": {
+    "zh": "下一组",
+    "en": "Next"
+  },
+  "ui.empty": {
+    "zh": "没有符合条件的内容。",
+    "en": "No matching content."
+  },
+  "ui.pending": {
+    "zh": "这部分资料尚未收录。",
+    "en": "This material has not been added yet."
+  },
+  "ui.loading": {
+    "zh": "正在加载学习内容…",
+    "en": "Loading your lesson…"
+  },
+  "ui.error": {
+    "zh": "内容暂时无法加载，请重试或返回索引。",
+    "en": "This lesson could not be loaded. Retry or return to the index."
+  },
+  "ui.reload": {
+    "zh": "重试",
+    "en": "Retry"
+  },
+  "ui.export": {
+    "zh": "导出学习记录",
+    "en": "Export progress"
+  },
+  "ui.import": {
+    "zh": "导入学习记录",
+    "en": "Import progress"
+  },
+  "ui.imported": {
+    "zh": "已合并导入的学习记录。",
+    "en": "Imported progress has been merged."
+  },
+  "ui.invalidFile": {
+    "zh": "文件格式不正确，请选择本站导出的学习记录。",
+    "en": "Choose a valid progress file exported from this site."
+  },
+  "ui.localOnly": {
+    "zh": "记录保存在当前浏览器。换设备前可以导出；新站不会自动读取旧站的记录。",
+    "en": "Progress stays in this browser. Export it before changing devices. Records from the old site are not read automatically."
+  },
+  "ui.storageError": {
+    "zh": "浏览器暂时无法保存；本次仍可继续学习，请导出记录备份。",
+    "en": "Browser storage is unavailable. You can keep studying; export your progress to keep a backup."
+  },
+  "ui.lastResult": {
+    "zh": "上次：{correct}/{total}",
+    "en": "Last result: {correct}/{total}"
+  },
+  "ui.sourceNote": {
+    "zh": "教材内容参考原复习站整理。释义与解析为学习辅助，请结合原书和课堂内容使用。",
+    "en": "Study material adapted from the original review site. Use the glosses and explanations alongside your textbook and classes."
+  },
+  "ui.readingTest": {
+    "zh": "请用假名写出读音。",
+    "en": "Write the reading in kana."
+  },
+  "ui.katakanaTest": {
+    "zh": "根据句子填写片假名单词。",
+    "en": "Complete each sentence with the katakana word."
+  },
+  "ui.wordTest": {
+    "zh": "选择与日语词语对应的意思。",
+    "en": "Choose the meaning of the Japanese word."
+  }
+}
